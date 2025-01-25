@@ -42,7 +42,7 @@
 4. Create a `.env` file for email credentials:
    ```env
    EMAIL_USER=your_email@gmail.com
-   EMAIL_PASS=your_email_password
+   EMAIL_PASS=your_email_password / app passkey
    PORT=8009
    ```
 
@@ -55,20 +55,7 @@
    npm start
    ```
 
-2. Send a POST request to `/send-excel` with the following JSON payload:
-   ```json
-   {
-     "data": [
-       { "Name": "John Doe", "Age": 30, "Email": "john.doe@example.com" },
-       { "Name": "Jane Smith", "Age": 25, "Email": "jane.smith@example.com" }
-     ],
-     "to": "recipient@example.com",
-     "subject": "Test Email with Excel File",
-     "text": "Please find the attached Excel file."
-   }
-   ```
-
-3. The server will generate an Excel file, email it to the specified recipient, and delete the file after successful email delivery.
+2. The server will generate an Excel file, email it to the specified recipient, and delete the file after successful email delivery.
 
 
 ## File Cleanup

@@ -1,0 +1,26 @@
+[{
+    "name": "Emma ezeiru",
+    "dept": "Software Engineering",
+    "tech": "nodejs",
+    "stipend": "80k"
+},{
+    "name": "isaac",
+    "dept": "Software Engineering",
+    "tech": "java",
+    "stipend": "70k"
+},{
+    "name": "olisa",
+    "dept": "Software Engineering",
+    "tech": "c",
+    "stipend": "100k"
+},{
+    "name": "fred",
+    "dept": "Software Engineering",
+    "tech": "python",
+    "stipend": "70k"
+},{
+    "name": "nathan",
+    "dept": "Software Engineering",
+    "tech": "typescript",
+    "stipend": "60k"
+}]
